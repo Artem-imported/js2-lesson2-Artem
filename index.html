@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LESSON2</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+
+    <style>
+        .slider {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      
+      .slider__input {
+        width: 100%;
+      }
+      
+      .slider__image {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+      }
+      #box {
+        width: 50px;
+        height: 50px;
+        background-color: red;
+     } 
+    </style>
+    <div class="slider">
+        <input type="range" min="1" max="100" value="50" class="slider__input" />
+        <img src="https://avatars.dzeninfra.ru/get-zen_doc/1692094/pub_5da9f94b06cc4600b034b3db_5da9f9921d656a00ad076804/scale_1200" class="slider__image" />
+    </div>
+    <div id="box"></div>
+    <script src="script.js"></script>
+</body>
+</html>
